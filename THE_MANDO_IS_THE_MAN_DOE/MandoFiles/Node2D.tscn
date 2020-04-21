@@ -1,0 +1,821 @@
+[gd_scene load_steps=96 format=2]
+
+[ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
+[ext_resource path="res://TheMandalorian16.png" type="Texture" id=2]
+[ext_resource path="res://TheMandalorian17.png" type="Texture" id=3]
+[ext_resource path="res://TheMandalorian18.png" type="Texture" id=4]
+[ext_resource path="res://TheMandalorian9.png" type="Texture" id=5]
+[ext_resource path="res://TheMandalorian10.png" type="Texture" id=6]
+[ext_resource path="res://TheMandalorian11.png" type="Texture" id=7]
+[ext_resource path="res://TheMandalorian12.png" type="Texture" id=8]
+[ext_resource path="res://TheMandalorian31.png" type="Texture" id=9]
+[ext_resource path="res://TheMandalorian32.png" type="Texture" id=10]
+[ext_resource path="res://TheMandalorian33.png" type="Texture" id=11]
+[ext_resource path="res://TheMandalorian34.png" type="Texture" id=12]
+[ext_resource path="res://TheMandalorian36.png" type="Texture" id=13]
+[ext_resource path="res://TheMandalorian37.png" type="Texture" id=14]
+[ext_resource path="res://TheMandalorian38.png" type="Texture" id=15]
+[ext_resource path="res://TheMandalorian39.png" type="Texture" id=16]
+[ext_resource path="res://TheMandalorian40.png" type="Texture" id=17]
+[ext_resource path="res://TheMandalorian41.png" type="Texture" id=18]
+[ext_resource path="res://TheMandalorian42.png" type="Texture" id=19]
+[ext_resource path="res://TheMandalorian43.png" type="Texture" id=20]
+[ext_resource path="res://Fishy44.png" type="Texture" id=21]
+[ext_resource path="res://Fishy45.png" type="Texture" id=22]
+[ext_resource path="res://Fishy46.png" type="Texture" id=23]
+[ext_resource path="res://Fishy47.png" type="Texture" id=24]
+[ext_resource path="res://TheMandalorian27.png" type="Texture" id=25]
+[ext_resource path="res://TheMandalorian28.png" type="Texture" id=26]
+[ext_resource path="res://TheMandalorian29.png" type="Texture" id=27]
+[ext_resource path="res://TheMandalorian30.png" type="Texture" id=28]
+[ext_resource path="res://TheMandalorian23.png" type="Texture" id=29]
+[ext_resource path="res://TheMandalorian24.png" type="Texture" id=30]
+[ext_resource path="res://TheMandalorian25.png" type="Texture" id=31]
+[ext_resource path="res://TheMandalorian26.png" type="Texture" id=32]
+[ext_resource path="res://TheMandalorian5.png" type="Texture" id=33]
+[ext_resource path="res://TheMandalorian6.png" type="Texture" id=34]
+[ext_resource path="res://TheMandalorian7.png" type="Texture" id=35]
+[ext_resource path="res://TheMandalorian8.png" type="Texture" id=36]
+[ext_resource path="res://TheMandalorian19.png" type="Texture" id=37]
+[ext_resource path="res://TheMandalorian20.png" type="Texture" id=38]
+[ext_resource path="res://TheMandalorian21.png" type="Texture" id=39]
+[ext_resource path="res://TheMandalorian22.png" type="Texture" id=40]
+[ext_resource path="res://TheMandalorian13.png" type="Texture" id=41]
+[ext_resource path="res://TheMandalorian14.png" type="Texture" id=42]
+[ext_resource path="res://TheMandalorian15.png" type="Texture" id=43]
+[ext_resource path="res://TheMandalorian1.png" type="Texture" id=44]
+[ext_resource path="res://TheMandalorian2.png" type="Texture" id=45]
+[ext_resource path="res://TheMandalorian3.png" type="Texture" id=46]
+[ext_resource path="res://TheMandalorian4.png" type="Texture" id=47]
+[ext_resource path="res://BabyYoda.gd" type="Script" id=48]
+[ext_resource path="res://BabyYoda1.png" type="Texture" id=49]
+[ext_resource path="res://BabyYoda2.png" type="Texture" id=50]
+[ext_resource path="res://BabyYoda3.png" type="Texture" id=51]
+[ext_resource path="res://BabyYoda4.png" type="Texture" id=52]
+[ext_resource path="res://BabyYoda5.png" type="Texture" id=53]
+[ext_resource path="res://BabyYoda6.png" type="Texture" id=54]
+[ext_resource path="res://BabyYoda7.png" type="Texture" id=55]
+[ext_resource path="res://BabyYoda8.png" type="Texture" id=56]
+[ext_resource path="res://BabyYoda13.png" type="Texture" id=57]
+[ext_resource path="res://BabyYoda14.png" type="Texture" id=58]
+[ext_resource path="res://BabyYoda15.png" type="Texture" id=59]
+[ext_resource path="res://BabyYoda16.png" type="Texture" id=60]
+[ext_resource path="res://BabyYoda21.png" type="Texture" id=61]
+[ext_resource path="res://BabyYoda22.png" type="Texture" id=62]
+[ext_resource path="res://BabyYoda23.png" type="Texture" id=63]
+[ext_resource path="res://BabyYoda24.png" type="Texture" id=64]
+[ext_resource path="res://BabyYoda17.png" type="Texture" id=65]
+[ext_resource path="res://BabyYoda18.png" type="Texture" id=66]
+[ext_resource path="res://BabyYoda19.png" type="Texture" id=67]
+[ext_resource path="res://BabyYoda20.png" type="Texture" id=68]
+[ext_resource path="res://BabyYoda25.png" type="Texture" id=69]
+[ext_resource path="res://BabyYoda26.png" type="Texture" id=70]
+[ext_resource path="res://BabyYoda27.png" type="Texture" id=71]
+[ext_resource path="res://BabyYoda28.png" type="Texture" id=72]
+[ext_resource path="res://BabyYoda9.png" type="Texture" id=73]
+[ext_resource path="res://BabyYoda10.png" type="Texture" id=74]
+[ext_resource path="res://BabyYoda11.png" type="Texture" id=75]
+[ext_resource path="res://BabyYoda12.png" type="Texture" id=76]
+[ext_resource path="res://MandoTile-export.png" type="Texture" id=77]
+[ext_resource path="res://Stormtrooper.gd" type="Script" id=78]
+[ext_resource path="res://Stormtrooper2.png" type="Texture" id=79]
+[ext_resource path="res://Stormtrooper7.png" type="Texture" id=80]
+[ext_resource path="res://Stormtrooper8.png" type="Texture" id=81]
+[ext_resource path="res://Stormtrooper9.png" type="Texture" id=82]
+[ext_resource path="res://Stormtrooper10.png" type="Texture" id=83]
+[ext_resource path="res://Stormtrooper3.png" type="Texture" id=84]
+[ext_resource path="res://Stormtrooper4.png" type="Texture" id=85]
+[ext_resource path="res://Stormtrooper5.png" type="Texture" id=86]
+[ext_resource path="res://Stormtrooper6.png" type="Texture" id=87]
+[ext_resource path="res://Stormtrooper1.png" type="Texture" id=88]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 11, 12 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "JumpFlamethrower",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "IdleGunFire",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "RunGunFire",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "IdleGun",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
+"loop": true,
+"name": "JumpGun",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "RunGun",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) ],
+"loop": true,
+"name": "RunFlamethrower",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "Run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 ) ],
+"loop": true,
+"name": "IdleFlamethrower",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 38 ), ExtResource( 39 ), ExtResource( 40 ) ],
+"loop": true,
+"name": "JumpGunFire",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 41 ), ExtResource( 42 ), ExtResource( 43 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 44 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 47 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+} ]
+
+[sub_resource type="CircleShape2D" id=3]
+radius = 8.0
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 49 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 52 ) ],
+"loop": true,
+"name": "PointingLeft",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 54 ), ExtResource( 55 ), ExtResource( 56 ) ],
+"loop": true,
+"name": "MostlyLeft",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 60 ) ],
+"loop": true,
+"name": "Middle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 61 ), ExtResource( 62 ), ExtResource( 63 ), ExtResource( 64 ) ],
+"loop": true,
+"name": "MostlyRight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 65 ), ExtResource( 66 ), ExtResource( 67 ), ExtResource( 68 ) ],
+"loop": true,
+"name": "KindaRight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 69 ), ExtResource( 70 ), ExtResource( 71 ), ExtResource( 72 ) ],
+"loop": true,
+"name": "PointingRight",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 76 ) ],
+"loop": true,
+"name": "KindaLeft",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 16, 16 )
+
+[sub_resource type="CapsuleShape2D" id=6]
+radius = 9.0
+height = 4.0
+
+[sub_resource type="SpriteFrames" id=7]
+animations = [ {
+"frames": [ ExtResource( 79 ) ],
+"loop": true,
+"name": "IdleGun",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 80 ), ExtResource( 81 ), ExtResource( 82 ), ExtResource( 83 ) ],
+"loop": true,
+"name": "RunGun",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 84 ), ExtResource( 85 ), ExtResource( 86 ), ExtResource( 87 ) ],
+"loop": true,
+"name": "Run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 5.0
+} ]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Node2D" parent="."]
+position = Vector2( -23, -38 )
+
+[node name="Mando" type="KinematicBody2D" parent="Player"]
+position = Vector2( 94, 53 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Mando"]
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player/Mando"]
+position = Vector2( 17, 5 )
+scale = Vector2( 0.1, 0.1 )
+frames = SubResource( 2 )
+animation = "Run"
+frame = 3
+playing = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Camera2D" type="Camera2D" parent="Player/Mando"]
+current = true
+zoom = Vector2( 0.3, 0.3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="BabyYoda" type="KinematicBody2D" parent="Player"]
+position = Vector2( 23, 71 )
+script = ExtResource( 48 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/BabyYoda"]
+position = Vector2( 0, 1 )
+shape = SubResource( 3 )
+disabled = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player/BabyYoda"]
+scale = Vector2( 0.1, 0.1 )
+frames = SubResource( 4 )
+animation = "PointingLeft"
+playing = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Environment" type="Node2D" parent="."]
+editor/display_folded = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 0, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 320, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D11"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D11"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D22" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -320, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D22"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D22"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 160, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D6"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D6"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D16" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 480, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D16"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D16"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D30" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -160, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D30"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D30"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 32, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D2"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D2"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 352, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D12"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D12"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D26" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -288, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D26"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D26"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 192, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D7"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D7"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D17" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 512, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D17"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D17"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D23" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -128, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D23"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D23"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -64, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D3"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D3"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D13" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 256, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D13"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D13"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D28" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -384, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D28"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D28"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 96, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D8"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D8"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D18" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 416, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D18"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D18"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D29" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -224, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D29"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D29"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 64, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D4"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D4"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D14" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 384, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D14"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D14"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D24" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -256, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D24"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D24"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 224, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D9"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D9"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D19" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 544, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D19"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D19"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D21" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -96, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D21"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D21"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -32, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D5"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D5"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D15" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 288, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D15"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D15"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D25" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -352, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D25"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D25"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 128, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D10"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D10"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D20" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( 448, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D20"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D20"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="StaticBody2D27" type="StaticBody2D" parent="Environment"]
+editor/display_folded = true
+position = Vector2( -192, 65 )
+
+[node name="Sprite" type="Sprite" parent="Environment/StaticBody2D27"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 77 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Environment/StaticBody2D27"]
+shape = SubResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="Stormtrooper" type="KinematicBody2D" parent="Node2D"]
+position = Vector2( -62, -60 )
+script = ExtResource( 78 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/Stormtrooper"]
+shape = SubResource( 6 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Node2D/Stormtrooper"]
+position = Vector2( 11, -1 )
+scale = Vector2( 0.1, 0.1 )
+frames = SubResource( 7 )
+animation = "Idle"
+playing = true
+__meta__ = {
+"_edit_lock_": true
+}
+
+[connection signal="animation_finished" from="Player/Mando/AnimatedSprite" to="Player/Mando" method="_on_AnimatedSprite_animation_finished"]
